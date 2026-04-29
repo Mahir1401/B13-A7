@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sarah Jenkins",
-    "picture": "./f1.jpg",
+    "picture": "./f2.jpg",
     "email": "s.jenkins@provider.com",
     "days_since_contact": 12,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Liam Vance",
-    "picture": "./f2.jpg",
+    "picture": "./f1.jpg",
     "email": "lvance88@webmail.com",
     "days_since_contact": 3,
     "status": "almost due",

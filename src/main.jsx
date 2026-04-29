@@ -7,6 +7,7 @@ import Home from './components/Home'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Timeline from './components/Timeline'
+import Stat from './components/Stat'
 const router = createBrowserRouter([{
   path:"/",
   element:<Mainlayout/>,
@@ -18,10 +19,10 @@ const router = createBrowserRouter([{
     path:"/timeline",
   element:<Timeline/>
 },
-// {
-//   path:"/stats",
-//   element:<Stats/>
-// },
+{
+  path:"/stats",
+  element:<Stat/>
+}
 // {
 
 //   path:"/friend/:id",

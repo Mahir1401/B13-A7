@@ -1,4 +1,5 @@
-import React from 'react';
+import { ChartColumnDecreasing, History, House } from 'lucide-react';
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
   return (

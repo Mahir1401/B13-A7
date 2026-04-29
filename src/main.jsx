@@ -2,16 +2,17 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
+import Mainlayout from './components/Mainlayout'
+import Home from './components/Home'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Mainlayout from './components/Mainlayout'
 const router = createBrowserRouter([{
   path:"/",
-  element:<Mainlayout/>
-//   children:[{
-//     index: true,
-//     element:<Home/>
-//   },
+  element:<Mainlayout/>,
+  children:[{
+    index: true,
+    element:<Home/>
+  }
 // {
 //     path:"/timeline",
 //   element:<Timeline/>
@@ -26,7 +27,7 @@ const router = createBrowserRouter([{
 //   element:<FriendDetails/>
 // }
 
-// ],
+],
 // errorElement: <Error/>
 },
 

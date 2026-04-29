@@ -16,6 +16,7 @@ Data Handling: JSON-based local API
 Smart Relationship Tracking: View all your friends in a responsive grid layout. Each friend card features a dynamic Status Badge ("Overdue", "Almost Due", or "On-Track") that changes color based on your interaction frequency.
 Interactive Timeline & Check-ins: Log interactions (Call, Text, or Video) directly from a friend's detail page. These actions trigger instant toast notifications and automatically populate a persistent Timeline Page with the interaction history.
 Friendship Analytics: A dedicated Stats page featuring a Recharts Pie Chart that visualizes your communication habits, showing the distribution of calls, texts, and video chats across your network.
+
 📱 Project Requirements Met
 ✅ Fully Responsive: Optimized for Mobile, Tablet, and Desktop.
 ✅ Dynamic Routing: Individual detail pages for every friend.

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sarah Jenkins",
-    "picture": "../public/f2.jpg",
+    "picture": "/f2.jpg",
     "email": "s.jenkins@provider.com",
     "days_since_contact": 12,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Liam Vance",
-    "picture": "../public/f1.jpg",
+    "picture": "/f1.jpg",
     "email": "lvance88@webmail.com",
     "days_since_contact": 3,
     "status": "almost due",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Elena Rossi",
-    "picture": "../public/f3.jpg",
+    "picture": "/f3.jpg",
     "email": "erossi.design@mail.it",
     "days_since_contact": 25,
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Kevin Zhao",
-    "picture": "../public/f4.jpg",
+    "picture": "/f4.jpg",
     "email": "kevin.zhao@techcorp.org",
     "days_since_contact": 40,
     "status": "on-track",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Maya Brooks",
-    "picture": "../public/f5.jpg",
+    "picture": "/f5.jpg",
     "email": "mbrooks@freelance.net",
     "days_since_contact": 7,
     "status": "on-track",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Derrick Moore",
-    "picture": "../public/f6.jpg",
+    "picture": "/f6.jpg",
     "email": "dmoore_pro@gmail.com",
     "days_since_contact": 60,
     "status": "almost due",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Sophia Chen",
-    "picture": "../public/f7.jpg",
+    "picture": "/f7.jpg",
     "email": "schen_art@studio.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Oscar Wilde",
-    "picture": "../public/f8.jpg",
+    "picture": "/f8.jpg",
     "email": "owilde.writer@books.com",
     "days_since_contact": 100,
     "status": "overdue",

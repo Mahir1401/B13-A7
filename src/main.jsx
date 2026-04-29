@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import Timeline from './components/Timeline'
 import Stat from './components/Stat'
 import Error from './components/Error'
+import FriendDetails from './components/FriendDetails'
 const router = createBrowserRouter([{
   path:"/",
   element:<Mainlayout/>,
@@ -23,12 +24,12 @@ const router = createBrowserRouter([{
 {
   path:"/stats",
   element:<Stat/>
-}
-// {
+},
+{
 
-//   path:"/friend/:id",
-//   element:<FriendDetails/>
-// }
+  path:"/friend/:id",
+  element:<FriendDetails/>
+}
 
 ],
 errorElement: <Error/>

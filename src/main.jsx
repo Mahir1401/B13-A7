@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Timeline from './components/Timeline'
 import Stat from './components/Stat'
+import Error from './components/Error'
 const router = createBrowserRouter([{
   path:"/",
   element:<Mainlayout/>,
@@ -30,7 +31,7 @@ const router = createBrowserRouter([{
 // }
 
 ],
-// errorElement: <Error/>
+errorElement: <Error/>
 },
 
 ])

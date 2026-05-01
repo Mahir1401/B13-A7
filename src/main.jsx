@@ -10,28 +10,20 @@ import Timeline from './components/Timeline'
 import Stat from './components/Stat'
 import Error from './components/Error'
 import FriendDetails from './components/FriendDetails'
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Mainlayout />,
+    element: <Mainlayout />,  
     errorElement: <Error />,
     children: [
-      { index: true, 
-        element: <Home /> 
-      },
-      { path: "/timeline", 
-        element: <Timeline /> 
-      },
-      { path: "/stats", 
-        element: <Stat /> 
-      },
-      { path: "/friend/:id", 
-        element: <FriendDetails /> 
-      },
+      { index: true, element: <Home /> },
+      { path: "/timeline", element: <Timeline /> },
+      { path: "/stats", element: <Stat /> },
+      { path: "/friend/:id", element: <FriendDetails /> },
     ],
   },
 ])
-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
